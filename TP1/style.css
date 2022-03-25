@@ -1,0 +1,34 @@
+body {
+    margin : 0;
+    overflow: hidden;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 48vw;
+    border: solid 2px black;
+    overflow: scroll;
+}
+
+.arrets {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 50vh;
+    width: 50vw;
+    border: solid 2px black;
+    overflow: scroll;
+}
+
+.departs {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    height: 48vh;
+    width: 50vw;
+    border: solid 2px black;
+    overflow: scroll;
+}
