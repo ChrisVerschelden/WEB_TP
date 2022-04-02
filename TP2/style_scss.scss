@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/491306.png");
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+
+hr {
+    background-color: white;
+}
+
+.player {
+    position: absolute;
+    width: 100px;
+    height: 125px;
+    left: 0;
+    margin-left: 20px;
+    transition: margin-left 1s;
+}
+
+.player-before {
+    margin-left: -50vh;
+}
+
+.player.player-1 {
+    top: 0;
+    margin-top: 100px;
+}
+
+.player.player-2 {
+    bottom: 0;
+    margin-bottom: 100px;
+}
+
+.card-before {
+    margin-left: -200vh;
+}
+
+.anim {
+    transition: margin-left 1s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.plateau {
+    height: 90vh;
+    justify-content: center;
+}
+.header {
+    height: 10vh;
+}
+.justify-content-md-center {
+    transition: all 1s;
+}
